@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 namespace EntityFrameworkEstudo1
 {
     public class AppDbContext : DbContext
+    //esse e o db
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
